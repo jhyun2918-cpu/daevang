@@ -31,7 +31,7 @@ body {
 /* Header */
 header {
     background-color: var(--white);
-    padding: 25px 0 20px;
+    padding: 15px 0 12px; /* 패딩 축소 */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -42,11 +42,11 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 10px; /* 간격 축소 */
 }
 
 .logo {
-    font-size: 1.8rem;
+    font-size: 1.6rem; /* 폰트 약간 축소 */
     font-weight: 900;
     letter-spacing: -1.5px;
     line-height: 1.1;
@@ -54,12 +54,12 @@ header {
 }
 
 .logo-subtext {
-    font-size: 1rem;
+    font-size: 0.9rem; /* 폰트 축소 */
     font-weight: 600;
     letter-spacing: -0.5px;
     display: block;
-    margin-top: 5px;
-    margin-bottom: 15px; /* 한 줄 띄운 효과를 위해 여백 추가 */
+    margin-top: 3px;
+    margin-bottom: 0px; /* 여백 제거 */
 }
 
 .yellow-text {
@@ -69,30 +69,31 @@ header {
 .header-btns {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+    gap: 6px; /* 간격 축소 */
     width: 100%;
     justify-content: center;
 }
 
 .header-btns-desc {
-    font-size: 0.9rem; /* 0.75rem에서 0.9rem으로 키움 */
-    color: #666; /* 색상도 약간 더 진하게 변경 */
-    margin-top: 15px;
+    font-size: 0.8rem; /* 폰트 축소 */
+    color: #888;
+    margin-top: 0px;
+    margin-bottom: 5px; /* 버튼 위로 이동했으므로 아래쪽 여백 추가 */
     text-align: center;
     font-weight: 500;
 }
 
 .header-blog-btn, .header-kakao-btn, .header-land-btn, .header-hogang-btn, .header-zigbang-btn, .header-hanbang-btn {
     text-decoration: none;
-    padding: 10px 5px;
-    border-radius: 8px;
-    font-size: 0.8rem;
+    padding: 7px 3px; /* 버튼 패딩 축소 */
+    border-radius: 6px;
+    font-size: 0.75rem; /* 폰트 약간 축소 */
     font-weight: 700;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 3px;
     white-space: nowrap;
 }
 
@@ -147,10 +148,10 @@ header {
 /* Hero Section with Apartment Background */
 .hero {
     position: relative;
-    background: url('images/background.jpg') center center no-repeat;
+    background: url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80') center center no-repeat;
     background-size: cover;
     color: var(--white);
-    padding: 100px 0; /* 전경이 더 잘 보이도록 패딩 약간 추가 */
+    padding: 120px 0; /* 배경이 더 시원하게 보이도록 상하 여백 확대 */
     text-align: center;
 }
 
@@ -284,9 +285,7 @@ header {
     background-color: #f0f4f8;
     color: var(--primary-color);
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; align-items: center; justify-content: center;
     margin: 0 auto 12px;
     font-size: 1.2rem;
 }
