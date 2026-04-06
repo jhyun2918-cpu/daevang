@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1775023199020",
+    "name": "정현",
+    "phone": "01035786946",
+    "propertyType": "아파트",
+    "transactionType": "매매",
+    "address": "야리로 50",
+    "price": "5억",
+    "details": "ㅇㅇ",
+    "createdAt": "2026-04-01T05:59:59.020Z"
+  },
+  {
+    "id": "1775026747509",
+    "name": "정현",
+    "phone": "01035786946",
+    "propertyType": "아파트",
+    "transactionType": "매매",
+    "address": "701-2404",
+    "price": "6억",
+    "details": "굿",
+    "createdAt": "2026-04-01T06:59:07.509Z"
+  },
+  {
+    "id": "1775027743476",
+    "name": "정현",
+    "phone": "01035786946",
+    "propertyType": "아파트",
+    "transactionType": "매매",
+    "address": "501-1210",
+    "price": "5억",
+    "details": "",
+    "createdAt": "2026-04-01T07:15:43.476Z"
+  },
+  {
+    "id": "1775449926056",
+    "name": "정현",
+    "phone": "01035786946",
+    "propertyType": "아파트",
+    "transactionType": "매매",
+    "address": "701-2404",
+    "price": "5억",
+    "details": "ㅇㅇㅇㅇ",
+    "createdAt": "2026-04-06T04:32:06.056Z"
+  },
+  {
+    "id": "1775450222387",
+    "name": "정중영",
+    "phone": "01035786949",
+    "propertyType": "아파트",
+    "transactionType": "매매",
+    "address": "401-2202",
+    "price": "5억",
+    "details": "이ㅏㅓㅣㅇㄻ너리ㅏㄴㅇㅁㄹ",
+    "createdAt": "2026-04-06T04:37:02.387Z"
+  },
+  {
+    "id": "1775451113902",
+    "name": "이미자",
+    "phone": "010-1234-1234",
+    "propertyType": "아파트",
+    "transactionType": "매매",
+    "address": "101-1012",
+    "price": "3억",
+    "details": "오야",
+    "createdAt": "2026-04-06T04:51:53.902Z"
+  },
+  {
+    "id": "1775451402854",
+    "name": "전지현",
+    "phone": "010-1111-1111",
+    "propertyType": "아파트",
+    "transactionType": "매매",
+    "address": "101-1111",
+    "price": "6억",
+    "details": "ㅇㄹㅇㄹㅇㄹㅇ",
+    "createdAt": "2026-04-06T04:56:42.854Z"
+  },
+  {
+    "id": "1775451820780",
+    "name": "전지현",
+    "phone": "01001113111",
+    "propertyType": "상가/사무실",
+    "transactionType": "매매",
+    "address": "가촌리 1301",
+    "price": "6",
+    "details": "ㅇㄹㅇㄴㄴㅇㅁㄹㅇㄴ",
+    "createdAt": "2026-04-06T05:03:40.780Z"
+  },
+  {
+    "id": "1775453920359",
+    "name": "정현",
+    "phone": "SKT 01011111221",
+    "propertyType": "아파트",
+    "transactionType": "매매",
+    "address": "1012031",
+    "price": "5",
+    "details": "",
+    "createdAt": "2026-04-06T05:38:40.359Z"
+  },
+  {
+    "id": "1775454042520",
+    "name": "ㄹㅇ",
+    "phone": "SKT 0110101111",
+    "propertyType": "아파트",
+    "transactionType": "매매",
+    "address": "1212-1",
+    "price": "3",
+    "details": "ㅀㄴㅇㄹ",
+    "createdAt": "2026-04-06T05:40:42.520Z"
+  }
+]
